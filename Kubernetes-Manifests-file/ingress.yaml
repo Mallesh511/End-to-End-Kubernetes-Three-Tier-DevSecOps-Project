@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: malleshdevops.buzz
+    - host: backend.malleshdevops.buzz
       http:
         paths:
           - path: /api
